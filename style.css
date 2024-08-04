@@ -312,8 +312,8 @@ p {
 	z-index: -1;
 }
 #services .service-bottom .icon {
-	height: 80px;
-	width: 80px;
+	height: 100px;
+	width: 100px;
 	margin-bottom: 20px;
 }
 #services .service-item h2 {
@@ -375,6 +375,8 @@ p {
 #projects .project-info h1 {
 	font-size: 4rem;
 	font-weight: 500;
+	margin-bottom: 20px;
+
 }
 #projects .project-info h2 {
 	font-size: 1.8rem;
@@ -450,7 +452,7 @@ p {
 	top: 19px;
 	height: 98%;
 	width: 98%;
-	border: 7px solid crimson;
+	/* border: 7px solid crimson; */
 	z-index: -1;
 }
 /* End About Section */
@@ -628,13 +630,15 @@ p {
 		height: 400px;
 		padding-left: 60px;
 	}
+	
 	#about .about .col-left .about-img::after {
 		left: -45px;
 		top: 34px;
 		height: 98%;
 		width: 98%;
-		border: 10px solid crimson;
+		
 	}
+	
 	#about .col-right {
 		text-align: left;
 		padding: 30px;
